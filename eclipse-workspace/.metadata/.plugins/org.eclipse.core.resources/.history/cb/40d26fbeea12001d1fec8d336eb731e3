@@ -1,0 +1,20 @@
+package TestNGsample;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+@test
+public class paralleltest {
+	public void opengoogle() {
+	
+	System.setProperty("webdriver.chrome.driver","C:\\New folder\\chromedriver\\chromedriver_102.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.google.com/");
+}
+@test
+public void openyahoo() {
+
+System.setProperty("webdriver.chrome.driver","C:\\New folder\\chromedriver\\chromedriver_102.exe");
+WebDriver driver=new ChromeDriver();
+driver.get("https://www.google.com/");
+}
+}

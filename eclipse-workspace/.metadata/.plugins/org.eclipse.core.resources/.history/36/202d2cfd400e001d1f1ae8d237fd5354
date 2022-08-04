@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test suite">
+<test name="test case">
+<classes>
+<class name="TestNGsample.sampletestcase"></class>
+<class name="TestNGsample.priority"></class>
+<class name="TestNGsample.dependencies"></class>
+</classes>
+</test>
+</suite>
